@@ -4,7 +4,7 @@ import { Route, Router, IndexRoute } from 'react-router';
 // var NotFoundRoute = Router.NotFoundRoute;
 // var Redirect = Router.Redirect;
 import App from './app';
-import HomePage from './components/home/homePage';
+import HomePage from './components/home/HomePage';
 import CoursePage from './components/course/CoursesPage';
 import AboutPage from './components/about/AboutPage';
 
