@@ -1,14 +1,17 @@
-import React from 'react';
+"use strict";
 
-class AboutPage extends React.Component {
-  render(){
+import React from 'react';
+import { Router, Link } from 'react-router';
+
+class Home extends React.Component{
+  render () {
     return (
       <div>
         <h1>About Page</h1>
-        <p>This application uses React, Redux, React Router and a variety of other helpful libraries.</p>
+        <p>This is the about page.... :)</p>
       </div>
     );
   }
 }
 
-export default AboutPage;
+export default Home;
